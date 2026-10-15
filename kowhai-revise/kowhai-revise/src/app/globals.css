@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: auto;
+}
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  @apply bg-paper font-body text-ink antialiased;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+/* Double ring stays visible on light, dark and yellow backgrounds. */
+:focus-visible {
+  outline: 3px solid #0b2b3a;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 6px #f5b700;
+}
+
+/* Note reading column */
+.note {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+.note h2 {
+  @apply mb-3 mt-10 scroll-mt-24 font-display text-2xl font-bold;
+}
+.note h3 {
+  @apply mb-2 mt-6 font-display text-xl font-bold;
+}
+.note h4 {
+  @apply mb-1 mt-5 font-display text-base font-bold text-fern;
+}
+.note p {
+  @apply my-3;
+}
+.note ul {
+  @apply my-2 list-disc pl-6;
+}
+.note ul ul {
+  list-style: circle;
+}
+.note ol {
+  @apply my-2 list-decimal pl-6;
+}
+.note li {
+  @apply my-1;
+}
+.note .parts ol {
+  list-style-type: lower-alpha;
+}
+.note .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0;
+}

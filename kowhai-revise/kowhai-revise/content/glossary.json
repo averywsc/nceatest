@@ -1,0 +1,12 @@
+{
+  "simple-harmonic-motion": { "term": "Simple harmonic motion", "definition": "Oscillation where the restoring acceleration is proportional to the displacement from equilibrium and always points back toward it." },
+  "amplitude": { "term": "Amplitude", "definition": "The maximum displacement from the equilibrium position. Measured in metres for a mass on a spring." },
+  "period": { "term": "Period", "definition": "The time taken for one complete oscillation. Symbol T, measured in seconds." },
+  "frequency": { "term": "Frequency", "definition": "The number of complete oscillations per second. Symbol f, measured in hertz (Hz). It equals 1 divided by the period." },
+  "angular-frequency": { "term": "Angular frequency", "definition": "How fast the reference-circle point turns, in radians per second. Symbol omega. It equals 2 pi times the frequency." },
+  "equilibrium-position": { "term": "Equilibrium position", "definition": "The centre of the oscillation, where the net force on the object is zero." },
+  "restoring-force": { "term": "Restoring force", "definition": "A force that always acts toward the equilibrium position, and grows as the object moves further from it." },
+  "phase": { "term": "Phase", "definition": "Where an object is in its cycle, written as an angle. One full cycle is 360 degrees or 2 pi radians." },
+  "superposition": { "term": "Superposition", "definition": "When two waves meet, the resulting displacement at each point is the sum of the displacements of the individual waves." },
+  "node": { "term": "Node", "definition": "A point on a standing wave that does not move, because the waves cancel there." }
+}
